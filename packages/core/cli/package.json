@@ -6,9 +6,9 @@
   "main": "./bin/index.js",
   "scripts": {
     "create-package": "node --experimental-specifier-resolution=node ./bin/index.js",
-    "build:cli": "rimraf ./bin && tsc --project './tsconfig.json' && chmod u+x ./bin/index.js",
+    "build:cli": "rimraf ./bin && tsc --project ./tsconfig.json",
     "prepare": "pnpm run build:cli",
-    "typecheck": "vue-tsc -p './tsconfig.build.json' --noEmit",
+    "typecheck": "vue-tsc -p ./tsconfig.build.json --noEmit",
     "lint": "eslint '**/*.{js,jsx,ts,tsx,vue}' --ignore-path '../../../.eslintignore'",
     "lint:fix": "eslint '**/*.{js,jsx,ts,tsx,vue}' --ignore-path '../../../.eslintignore' --fix"
   },

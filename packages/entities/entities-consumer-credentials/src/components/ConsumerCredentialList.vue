@@ -303,6 +303,12 @@ const fields: Record<CredentialPlugins, BaseTableHeaders> = {
     created_at: { label: t('credentials.list.table_headers.jwt.created_at') },
     tags: { label: t('credentials.list.table_headers.jwt.tags') },
   },
+  'jwt-verifier': {
+    key: { label: t('credentials.list.table_headers.jwt-verifier.key') },
+    algorithm: { label: t('credentials.list.table_headers.jwt-verifier.algorithm') },
+    created_at: { label: t('credentials.list.table_headers.jwt-verifier.created_at') },
+    tags: { label: t('credentials.list.table_headers.jwt-verifier.tags') },
+  },
 }
 const tableHeaders = computed<BaseTableHeaders>(() => fields[props.config.plugin])
 

@@ -23,6 +23,9 @@
         },
         "jwt": {
           "new": "New JWT Credential"
+        },
+        "jwt-verifier": {
+          "new": "New JWT Verifier Credential"
         }
       },
       "table_headers": {
@@ -65,6 +68,12 @@
           "algorithm": "Algorithm",
           "created_at": "Created at",
           "tags": "Tags"
+        },
+        "jwt-verifier": {
+          "key": "Key",
+          "algorithm": "Algorithm",
+          "created_at": "Created at",
+          "tags": "Tags"
         }
       },
       "empty_state": {
@@ -95,6 +104,10 @@
         "jwt": {
           "title": "Configure a New JWT Credential",
           "cta": "New JWT Credential"
+        },
+        "jwt-verifier": {
+          "title": "Configure a New JWT Verifier Credential",
+          "cta": "New JWT Verifier Credential"
         }
       }
     },
@@ -128,6 +141,9 @@
       },
       "jwt": {
         "title": "Delete a JWT Credential"
+      },
+      "jwt-verifier": {
+        "title": "Delete a JWT Verifier Credential"
       },
       "description": "This action cannot be reversed."
     },
