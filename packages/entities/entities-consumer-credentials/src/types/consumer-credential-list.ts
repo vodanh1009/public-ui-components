@@ -1,7 +1,7 @@
 import type { RouteLocationRaw } from 'vue-router'
 import type { KongManagerBaseTableConfig, KonnectBaseTableConfig } from '@kong-ui-public/entities-shared'
 
-export type CredentialPlugins = 'acls' | 'basic-auth' | 'key-auth' | 'key-auth-enc' | 'oauth2' | 'hmac-auth' | 'jwt' | 'jwt-verifier'
+export type CredentialPlugins = 'acls' | 'basic-auth' | 'key-auth' | 'key-auth-enc' | 'oauth2' | 'hmac-auth' | 'jwt' | 'jwt-verifier' | 'account-acl'
 
 export interface BaseConsumerCredentialListConfig {
   /** Consumer ID */

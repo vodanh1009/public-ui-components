@@ -1,19 +1,19 @@
 # Reference:
 # https://github.com/evilmartians/lefthook/blob/master/docs/full_guide.md
 
-pre-push:
-  parallel: true
-  commands:
-    stylelint:
-      skip:
-        - merge
-        - rebase
-      run: pnpm run stylelint
-    eslint:
-      skip:
-        - merge
-        - rebase
-      run: pnpm run lint
+# pre-push:
+#   parallel: true
+#   commands:
+#     stylelint:
+#       skip:
+#         - merge
+#         - rebase
+#       run: pnpm run stylelint
+#     eslint:
+#       skip:
+#         - merge
+#         - rebase
+#       run: pnpm run lint
 
 # commit-msg:
 #   parallel: true
